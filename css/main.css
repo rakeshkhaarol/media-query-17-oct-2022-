@@ -1,0 +1,73 @@
+
+
+/*@media not|only mediatype and (expressions) */
+/*@media only screen and (max-width: 600px) and (min-width: 400px) */
+@media only screen and (max-width:575px) and (min-width:0px){
+    #a1{
+        width: 200px;
+        height: 200px;
+        background: blueviolet;
+        text-align: center;
+        line-height: 200px;
+        font-size: 2em;
+        font-family: 'Comforter Brush', cursive;
+    }
+}
+@media only screen and (max-width:767px) and (min-width:576px){
+    #a1{
+        width: 400px;
+        height: 400px;
+        background: blue;
+        border-radius: 400px;
+        text-align: center;
+        line-height: 400px;
+        font-size: 3em;
+        font-family: 'Alkalami', serif;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    #a1{
+        width: 500px;
+        height: 500px;
+        background:purple;
+        text-align: center;
+        line-height: 500px;
+        font-size: 4em;
+        font-family: 'Alfa Slab One', cursive;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    #a1{
+        width: 700px;
+        height: 700px;
+        background:gold;
+        border-bottom-left-radius: 500px; 
+        border-bottom-right-radius: 500px; 
+        text-align: center;
+        line-height: 700px;
+        font-size: 5em;
+        font-family: 'VT323', monospace;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1350px){
+    #a1{
+        width: 1000px;
+        height: 600px;
+        background:deeppink;
+        text-align: center;
+        line-height: 700px;
+        font-size: 4em;
+        font-family: 'Great Vibes', cursiv
+    }
+}
+@media only screen and (min-width:1351px) and (max-width:1600px){
+    #a1{
+        width: 1600px;
+        height: 900px;
+        background:darkred;
+        text-align: center;
+        line-height: 1000px;
+        font-size: 5em;
+        font-family: 'Cookie', cursive;
+    }
+}
